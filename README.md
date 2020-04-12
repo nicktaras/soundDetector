@@ -7,11 +7,10 @@ Python Sound Detector
 
 - Define the range for volume (0 to X)
 - Define the range pitch (0 to Y)
-- Write a function that detects metal
 - Documentation install Dependancies (Raspberry Pi)
 - Gotchas with dependancies installs (not so easily to know)
+- Pitch doesn't appear to be perfect, over 10,000 khz (via external sound card which could be the hardware?)
 - Documentation for usage of library
-
 
 ## Reading
 
