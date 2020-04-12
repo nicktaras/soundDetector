@@ -1,8 +1,6 @@
 # soundDetector
 Python Sound Detector
 
-# A POC to detect if a signal is being picked up from an input signal.
-
 ## Notes
 
 - Create documentation to install Dependancies (Mac / Raspberry Pi)
