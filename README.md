@@ -4,7 +4,7 @@ Python Sound Detector
 ## Notes
 
 - Create documentation to install Dependancies (Mac / Raspberry Pi)
-- The Pitch functionality becomes inaccurate over 10,000 khz (to be further tested - it could be the external sound card I'm using to develop with)
+- The Pitch functionality becomes inaccurate over 10 khz (to be further tested - it could be the external sound card I'm using to develop with)
 
 ## Reading
 
