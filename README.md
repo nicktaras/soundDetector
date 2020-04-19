@@ -64,3 +64,11 @@ def wavplay(sound):
     #end 
 
 ````
+
+Installing Numpuy to Raspberry PI
+
+sudo apt-get install python3-numpy
+
+For for plotting graphs use pylab:
+
+sudo apt-get install python3-matplotlib
