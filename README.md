@@ -94,4 +94,6 @@ def wavplay(sound):
     p.terminate()
     #end 
 
+# sudo shutdown -h now
+
 ````
