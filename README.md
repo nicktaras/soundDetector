@@ -11,6 +11,12 @@ sudo apt-get install python3-pyaudio
 
 sudo apt-get install python3-numpy
 
+## Debugging the Pi / Audio 
+
+- https://snowboy.kitt.ai/docs
+- https://github.com/Arkq/bluez-alsa/issues/26
+- https://github.com/Kitt-AI/snowboy/issues/45
+
 ## Notes
 
 - The Pitch functionality becomes inaccurate over 10 khz (to be further tested - it could be the external sound card I'm using to develop with)
