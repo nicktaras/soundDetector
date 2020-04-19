@@ -1,9 +1,18 @@
 # soundDetector
 Python Sound Detector
 
+## Installation
+
+1. Install PyAudio library
+
+sudo apt-get install python3-pyaudio 
+
+2. Install Numpy
+
+sudo apt-get install python3-numpy
+
 ## Notes
 
-- Create documentation to install Dependancies (Mac / Raspberry Pi)
 - The Pitch functionality becomes inaccurate over 10 khz (to be further tested - it could be the external sound card I'm using to develop with)
 
 ## Reading
@@ -64,11 +73,3 @@ def wavplay(sound):
     #end 
 
 ````
-
-Installing Numpuy to Raspberry PI
-
-sudo apt-get install python3-numpy
-
-For for plotting graphs use pylab:
-
-sudo apt-get install python3-matplotlib
