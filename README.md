@@ -16,7 +16,7 @@ sudo apt-get install python3-numpy
 - https://snowboy.kitt.ai/docs
 - https://github.com/Arkq/bluez-alsa/issues/26
 - https://github.com/Kitt-AI/snowboy/issues/45
-
+- https://www.raspberrypi.org/forums/viewtopic.php?t=224856
 
 ````
 # Locate Sound Device
