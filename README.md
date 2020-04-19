@@ -17,6 +17,22 @@ sudo apt-get install python3-numpy
 - https://github.com/Arkq/bluez-alsa/issues/26
 - https://github.com/Kitt-AI/snowboy/issues/45
 
+
+````
+# Locate Sound Device
+import pyaudio
+p = pyaudio.PyAudio()
+for i in range(p.get_device_count()):
+  dev = p.get_device_info_by_index(i)
+  print((i,dev['name'],dev['maxInputChannels']))
+````
+
+(0, 'bcm2835 ALSA: IEC958/HDMI (hw:0,1)', 0)
+(1, 'bcm2835 ALSA: IEC958/HDMI1 (hw:0,2)', 0)
+(2, 'USB Audio Device: - (hw:1,0)', 1)
+(3, 'dmix', 0)
+(4, 'default', 1)
+
 ## Notes
 
 - The Pitch functionality becomes inaccurate over 10 khz (to be further tested - it could be the external sound card I'm using to develop with)
