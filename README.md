@@ -1,4 +1,4 @@
-# soundDetector
+# sound_detector
 Python Sound Detector
 
 ## Installation
