@@ -56,4 +56,6 @@ def list_devices():
 
 Common Pi Commands
 
+````
 # sudo shutdown -h now
+````
