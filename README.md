@@ -26,7 +26,7 @@ sudo apt-get install python3-numpy
 
 API examples: https://www.programcreek.com/python/example/52624/pyaudio.PyAudio
 
-## Example code from API (to enhance this repository)
+## Example code from API to help debug audio input devices.
 
 ````
 # List all devices:
